@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #d1f1f1;
+}
+
+.centered {
+  margin: 3rem auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: rgb(21, 194, 194);
+  color: white;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid rgb(21, 194, 194);
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #40c4c4;
+  border-color: #40c4c4;;
+}
+
+.invalid-btn {
+  text-decoration: none;
+  background-color: rgb(190, 211, 211);
+  color: white;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid rgb(190, 211, 211);
+}
+
+.error-text {
+  color: #b40e0e;
+}
+
+

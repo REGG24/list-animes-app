@@ -1,0 +1,12 @@
+.full-screen {
+    margin: 3rem auto;
+    width: 90%;
+    max-width: 70rem;
+}
+
+.medium-screen {
+    margin: 3rem auto;
+    width: 90%;
+    min-width: 400px;
+    max-width: 40rem;
+}

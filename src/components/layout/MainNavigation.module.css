@@ -1,0 +1,51 @@
+.header {
+    position: sticky;
+    top:0;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    padding: 0 10%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(112, 238, 238);
+}
+
+.logo {
+    font-size: 2rem;
+    color: white;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    margin-left: 1.5rem;
+    font-size: 1.25rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(108, 178, 187);
+}
+
+.nav a:hover,
+.nav a:active {
+    color: #e6fcfc;
+}
+
+@media (max-width: 600px) {
+    .header {
+        padding: 0 5%;
+    }
+    .logo {
+        font-size: 1.5rem;
+    }
+    .nav li {
+        margin-left: 1.2rem;
+        font-size: 1rem;
+    }
+}

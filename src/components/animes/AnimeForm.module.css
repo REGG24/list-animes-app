@@ -1,0 +1,50 @@
+.control {
+    margin-bottom: 0.5rem;
+}
+
+.details-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    gap: 5px;
+}
+
+.control label,
+.details-row label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.control input,
+.control textarea,
+.details-row input[type=text] {
+    font: inherit;
+    padding: 0.35rem;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    border: 1px solid #c1d1d1;
+    display: block;
+    width: 100%;
+    font-size: 1.25rem;
+}
+
+.control input:focus,
+.control textarea:focus {
+    background-color: #cbf8f8;
+    outline-color: rgb(118, 181, 223);
+}
+
+.actions {
+    text-align: right;
+}
+  
+.actions button {
+    font-size: 1.25rem;
+}
+
+
+
